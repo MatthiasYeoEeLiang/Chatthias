@@ -7,12 +7,12 @@ import time
 
 
 #Telegram API Token
-API_KEY = "1870421786:AAHjkkEO-TZg-kRgiEVppcCVp6YwXkxTV2s"
+API_KEY = "APIKEY"
 bot = telebot.TeleBot(API_KEY)
 
 #SQL connection
-mypass = "1234"
-mydatabase = "chatthias"
+mypass = "PW"
+mydatabase = "DB"
 
 con = pymysql.connect(host="localhost", user="root", password=mypass, database=mydatabase)
 cur = con.cursor()
